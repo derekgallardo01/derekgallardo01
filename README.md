@@ -22,7 +22,7 @@ Each repo below ships with sample data, a one-command setup, an eval harness,
 and a green CI badge. Clone, run, see it work — or click the live-demo link
 where one exists.
 
-### Runnable demos (8)
+### Runnable demos (9)
 
 | | Repo | What it shows | CI | Live |
 |---|---|---|---|---|
@@ -34,6 +34,7 @@ where one exists.
 | 💬 | **[nocode-ai-lead-workflow](https://github.com/derekgallardo01/nocode-ai-lead-workflow)** | Lead triage with cross-channel dedupe and a human-review queue for low-confidence classifications. Two leads datasets (B2B SaaS + real estate). | [![CI](https://github.com/derekgallardo01/nocode-ai-lead-workflow/actions/workflows/ci.yml/badge.svg)](https://github.com/derekgallardo01/nocode-ai-lead-workflow/actions/workflows/ci.yml) | **[demo →](https://derekgallardo01.github.io/nocode-ai-lead-workflow/)** |
 | 🛡️ | **[m365-audit-mcp](https://github.com/derekgallardo01/m365-audit-mcp)** | **MCP server** exposing M365 privacy/compliance audit checks as tools any MCP client (Claude Desktop, Cursor) can call. Five tools, 11 unit tests, mocked tenant backend with documented Microsoft Graph swap point. | [![CI](https://github.com/derekgallardo01/m365-audit-mcp/actions/workflows/ci.yml/badge.svg)](https://github.com/derekgallardo01/m365-audit-mcp/actions/workflows/ci.yml) | **[demo →](https://derekgallardo01.github.io/m365-audit-mcp/)** |
 | 🧠 | **[claude-agent-sdk-example](https://github.com/derekgallardo01/claude-agent-sdk-example)** | **Claude Agent SDK** demo — production-shaped multi-tool agent: coordinator + 4 tools (search/memory/grade) + session memory + citation tracking. Stub-by-default; one env var swaps to the real Claude API. 16 tests + 5 golden evals. | [![CI](https://github.com/derekgallardo01/claude-agent-sdk-example/actions/workflows/ci.yml/badge.svg)](https://github.com/derekgallardo01/claude-agent-sdk-example/actions/workflows/ci.yml) | **[demo →](https://derekgallardo01.github.io/claude-agent-sdk-example/)** |
+| 🪟 | **[m365-agents-sdk-example](https://github.com/derekgallardo01/m365-agents-sdk-example)** | **Microsoft 365 Agents SDK** demo — declarative manifest + 5 typed handlers + 4 Graph connectors + channel-aware rendering (Teams chat / Outlook HTML email / Copilot canvas adaptive card). 25 tests + 6 golden evals. | [![CI](https://github.com/derekgallardo01/m365-agents-sdk-example/actions/workflows/ci.yml/badge.svg)](https://github.com/derekgallardo01/m365-agents-sdk-example/actions/workflows/ci.yml) | **[demo →](https://derekgallardo01.github.io/m365-agents-sdk-example/)** |
 
 ### Delivery & enablement kits (4)
 
