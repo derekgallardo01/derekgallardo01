@@ -22,7 +22,7 @@ Each repo below ships with sample data, a one-command setup, an eval harness,
 and a green CI badge. Clone, run, see it work — or click the live-demo link
 where one exists.
 
-### Runnable demos (16)
+### Runnable demos (17)
 
 | | Repo | What it shows | CI | Live |
 |---|---|---|---|---|
@@ -42,6 +42,7 @@ where one exists.
 | ☁️ | **[azure-openai-evals](https://github.com/derekgallardo01/azure-openai-evals)** | **Azure OpenAI** deployment readiness + eval kit. 6 rubric types, 3 of them Azure-specific (`content_filter_safe` / `content_filter_blocks` / `latency_under` / `cost_under_per_call` / `json_schema_conforms`). 3 bundled deployment manifests (primary + failover + bulk classifier). 4-step CI readiness gate (validate → eval → cost projection → latency baseline) per deployment. 37 tests + 12 golden evals. | [![CI](https://github.com/derekgallardo01/azure-openai-evals/actions/workflows/ci.yml/badge.svg)](https://github.com/derekgallardo01/azure-openai-evals/actions/workflows/ci.yml) | **[demo →](https://derekgallardo01.github.io/azure-openai-evals/)** |
 | 🎙️ | **[meeting-summarizer-kit](https://github.com/derekgallardo01/meeting-summarizer-kit)** | Parse meeting transcripts in 4 formats (text/VTT/SRT/Otter JSON), generate a 4-section recap (Summary/Decisions/Action items/Open questions), extract structured action items with owners + due dates. The **first-person trick**: `I'll do X` maps owner to current speaker (not literal "I") — where naive LLM/regex summarizers fail. 4 bundled transcripts (one per format), 39 tests + 9 golden evals (10 action items at 100% recall). | [![CI](https://github.com/derekgallardo01/meeting-summarizer-kit/actions/workflows/ci.yml/badge.svg)](https://github.com/derekgallardo01/meeting-summarizer-kit/actions/workflows/ci.yml) | **[demo →](https://derekgallardo01.github.io/meeting-summarizer-kit/)** |
 | 🛠️ | **[graph-automation-scripts](https://github.com/derekgallardo01/graph-automation-scripts)** | Pack of **Microsoft Graph** admin scripts (user provisioning, license audit, mailbox cleanup, group reports, inactive-user detection, MFA audit). Mocked tenant with intentional "problem" rows (former employee still holding $87/mo of licenses, oversized mailbox, unregistered MFA on finance role) for the scripts to catch. 35 tests + 7 golden evals. | [![CI](https://github.com/derekgallardo01/graph-automation-scripts/actions/workflows/ci.yml/badge.svg)](https://github.com/derekgallardo01/graph-automation-scripts/actions/workflows/ci.yml) | **[demo →](https://derekgallardo01.github.io/graph-automation-scripts/)** |
+| 📊 | **[llm-observability-kit](https://github.com/derekgallardo01/llm-observability-kit)** | Runtime observability for LLM calls. Wrap any LLM call with `@trace`; capture cost + latency + tokens + errors per call; aggregate per-feature/model/tenant; fire alerts when thresholds breach. Vendor-neutral. 646-trace bundled fixture, 31 tests + 5 golden evals. Pairs with `prompt-registry-kit` (pre-deploy) + `azure-openai-evals` (pre-deploy) for full LLM-ops lifecycle. | [![CI](https://github.com/derekgallardo01/llm-observability-kit/actions/workflows/ci.yml/badge.svg)](https://github.com/derekgallardo01/llm-observability-kit/actions/workflows/ci.yml) | **[demo →](https://derekgallardo01.github.io/llm-observability-kit/)** |
 
 ### Delivery & enablement kits (4)
 
