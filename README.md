@@ -22,7 +22,7 @@ Each repo below ships with sample data, a one-command setup, an eval harness,
 and a green CI badge. Clone, run, see it work — or click the live-demo link
 where one exists.
 
-### Runnable demos (6)
+### Runnable demos (7)
 
 | | Repo | What it shows | CI | Live |
 |---|---|---|---|---|
@@ -32,6 +32,7 @@ where one exists.
 | 🏢 | **[sharepoint-intranet-generator](https://github.com/derekgallardo01/sharepoint-intranet-generator)** | Full SharePoint intranet generated from one JSON definition, with schema validation. Two industry templates (professional services + manufacturing). | [![CI](https://github.com/derekgallardo01/sharepoint-intranet-generator/actions/workflows/ci.yml/badge.svg)](https://github.com/derekgallardo01/sharepoint-intranet-generator/actions/workflows/ci.yml) | **[demo →](https://derekgallardo01.github.io/sharepoint-intranet-generator/)** |
 | 📚 | **[rag-over-docs-kit](https://github.com/derekgallardo01/rag-over-docs-kit)** | RAG kit with citation-first answers (document + chunk per claim), a query-aware re-ranker, and a golden eval set. Two corpora (workplace + technical API docs). | [![CI](https://github.com/derekgallardo01/rag-over-docs-kit/actions/workflows/ci.yml/badge.svg)](https://github.com/derekgallardo01/rag-over-docs-kit/actions/workflows/ci.yml) | **[demo →](https://derekgallardo01.github.io/rag-over-docs-kit/)** |
 | 💬 | **[nocode-ai-lead-workflow](https://github.com/derekgallardo01/nocode-ai-lead-workflow)** | Lead triage with cross-channel dedupe and a human-review queue for low-confidence classifications. Two leads datasets (B2B SaaS + real estate). | [![CI](https://github.com/derekgallardo01/nocode-ai-lead-workflow/actions/workflows/ci.yml/badge.svg)](https://github.com/derekgallardo01/nocode-ai-lead-workflow/actions/workflows/ci.yml) | **[demo →](https://derekgallardo01.github.io/nocode-ai-lead-workflow/)** |
+| 🛡️ | **[m365-audit-mcp](https://github.com/derekgallardo01/m365-audit-mcp)** | **MCP server** exposing M365 privacy/compliance audit checks as tools any MCP client (Claude Desktop, Cursor) can call. Five tools, 11 unit tests, mocked tenant backend with documented Microsoft Graph swap point. | [![CI](https://github.com/derekgallardo01/m365-audit-mcp/actions/workflows/ci.yml/badge.svg)](https://github.com/derekgallardo01/m365-audit-mcp/actions/workflows/ci.yml) | — |
 
 ### Delivery & enablement kits (4)
 
