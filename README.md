@@ -22,7 +22,7 @@ Each repo below ships with sample data, a one-command setup, an eval harness,
 and a green CI badge. Clone, run, see it work — or click the live-demo link
 where one exists.
 
-### Runnable demos (13)
+### Runnable demos (14)
 
 | | Repo | What it shows | CI | Live |
 |---|---|---|---|---|
@@ -39,6 +39,7 @@ where one exists.
 | 🗂️ | **[document-classifier-kit](https://github.com/derekgallardo01/document-classifier-kit)** | Schema-driven document classifier with confidence-routed human review and a golden eval harness reporting per-class precision / recall / F1. 6-class default catalog (invoice, PO, contract, complaint, job application, spam), 7 fixtures, 23 tests + 7 golden evals. Pairs with `pdf-extraction-kit` as a doc-intake pipeline. | [![CI](https://github.com/derekgallardo01/document-classifier-kit/actions/workflows/ci.yml/badge.svg)](https://github.com/derekgallardo01/document-classifier-kit/actions/workflows/ci.yml) | **[demo →](https://derekgallardo01.github.io/document-classifier-kit/)** |
 | 🧪 | **[prompt-registry-kit](https://github.com/derekgallardo01/prompt-registry-kit)** | Versioned prompt registry with A/B variants, eval-gated promotion, and instant rollback. The production-ops piece every LLM build needs once *"we changed the prompt"* becomes the most common root cause of outages. 3 bundled prompts × 2 versions each, 5 rubric types, 36 tests + 12 golden evals. | [![CI](https://github.com/derekgallardo01/prompt-registry-kit/actions/workflows/ci.yml/badge.svg)](https://github.com/derekgallardo01/prompt-registry-kit/actions/workflows/ci.yml) | **[demo →](https://derekgallardo01.github.io/prompt-registry-kit/)** |
 | 📬 | **[email-triage-automation](https://github.com/derekgallardo01/email-triage-automation)** | End-to-end inbox triage: parse incoming emails → classify → route to the right queue (sales / support / billing / etc.) → draft a reply where appropriate → send low-confidence cases to human review. 6-class default catalog, 7 EML fixtures, two eval suites (classification P/R/F1 + draft quality), 33 tests + 10 golden evals. Composes `document-classifier-kit` + `prompt-registry-kit` patterns into a complete vertical app. | [![CI](https://github.com/derekgallardo01/email-triage-automation/actions/workflows/ci.yml/badge.svg)](https://github.com/derekgallardo01/email-triage-automation/actions/workflows/ci.yml) | **[demo →](https://derekgallardo01.github.io/email-triage-automation/)** |
+| ☁️ | **[azure-openai-evals](https://github.com/derekgallardo01/azure-openai-evals)** | **Azure OpenAI** deployment readiness + eval kit. 6 rubric types, 3 of them Azure-specific (`content_filter_safe` / `content_filter_blocks` / `latency_under` / `cost_under_per_call` / `json_schema_conforms`). 3 bundled deployment manifests (primary + failover + bulk classifier). 4-step CI readiness gate (validate → eval → cost projection → latency baseline) per deployment. 37 tests + 12 golden evals. | [![CI](https://github.com/derekgallardo01/azure-openai-evals/actions/workflows/ci.yml/badge.svg)](https://github.com/derekgallardo01/azure-openai-evals/actions/workflows/ci.yml) | **[demo →](https://derekgallardo01.github.io/azure-openai-evals/)** |
 
 ### Delivery & enablement kits (4)
 
