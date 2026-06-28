@@ -22,7 +22,7 @@ Each repo below ships with sample data, a one-command setup, an eval harness,
 and a green CI badge. Clone, run, see it work — or click the live-demo link
 where one exists.
 
-### Runnable demos (14)
+### Runnable demos (15)
 
 | | Repo | What it shows | CI | Live |
 |---|---|---|---|---|
@@ -40,6 +40,7 @@ where one exists.
 | 🧪 | **[prompt-registry-kit](https://github.com/derekgallardo01/prompt-registry-kit)** | Versioned prompt registry with A/B variants, eval-gated promotion, and instant rollback. The production-ops piece every LLM build needs once *"we changed the prompt"* becomes the most common root cause of outages. 3 bundled prompts × 2 versions each, 5 rubric types, 36 tests + 12 golden evals. | [![CI](https://github.com/derekgallardo01/prompt-registry-kit/actions/workflows/ci.yml/badge.svg)](https://github.com/derekgallardo01/prompt-registry-kit/actions/workflows/ci.yml) | **[demo →](https://derekgallardo01.github.io/prompt-registry-kit/)** |
 | 📬 | **[email-triage-automation](https://github.com/derekgallardo01/email-triage-automation)** | End-to-end inbox triage: parse incoming emails → classify → route to the right queue (sales / support / billing / etc.) → draft a reply where appropriate → send low-confidence cases to human review. 6-class default catalog, 7 EML fixtures, two eval suites (classification P/R/F1 + draft quality), 33 tests + 10 golden evals. Composes `document-classifier-kit` + `prompt-registry-kit` patterns into a complete vertical app. | [![CI](https://github.com/derekgallardo01/email-triage-automation/actions/workflows/ci.yml/badge.svg)](https://github.com/derekgallardo01/email-triage-automation/actions/workflows/ci.yml) | **[demo →](https://derekgallardo01.github.io/email-triage-automation/)** |
 | ☁️ | **[azure-openai-evals](https://github.com/derekgallardo01/azure-openai-evals)** | **Azure OpenAI** deployment readiness + eval kit. 6 rubric types, 3 of them Azure-specific (`content_filter_safe` / `content_filter_blocks` / `latency_under` / `cost_under_per_call` / `json_schema_conforms`). 3 bundled deployment manifests (primary + failover + bulk classifier). 4-step CI readiness gate (validate → eval → cost projection → latency baseline) per deployment. 37 tests + 12 golden evals. | [![CI](https://github.com/derekgallardo01/azure-openai-evals/actions/workflows/ci.yml/badge.svg)](https://github.com/derekgallardo01/azure-openai-evals/actions/workflows/ci.yml) | **[demo →](https://derekgallardo01.github.io/azure-openai-evals/)** |
+| 🎙️ | **[meeting-summarizer-kit](https://github.com/derekgallardo01/meeting-summarizer-kit)** | Parse meeting transcripts in 4 formats (text/VTT/SRT/Otter JSON), generate a 4-section recap (Summary/Decisions/Action items/Open questions), extract structured action items with owners + due dates. The **first-person trick**: `I'll do X` maps owner to current speaker (not literal "I") — where naive LLM/regex summarizers fail. 4 bundled transcripts (one per format), 39 tests + 9 golden evals (10 action items at 100% recall). | [![CI](https://github.com/derekgallardo01/meeting-summarizer-kit/actions/workflows/ci.yml/badge.svg)](https://github.com/derekgallardo01/meeting-summarizer-kit/actions/workflows/ci.yml) | **[demo →](https://derekgallardo01.github.io/meeting-summarizer-kit/)** |
 
 ### Delivery & enablement kits (4)
 
