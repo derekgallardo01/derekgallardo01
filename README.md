@@ -22,7 +22,7 @@ Each repo below ships with sample data, a one-command setup, an eval harness,
 and a green CI badge. Clone, run, see it work — or click the live-demo link
 where one exists.
 
-### Runnable demos (11)
+### Runnable demos (12)
 
 | | Repo | What it shows | CI | Live |
 |---|---|---|---|---|
@@ -37,6 +37,7 @@ where one exists.
 | 🪟 | **[m365-agents-sdk-example](https://github.com/derekgallardo01/m365-agents-sdk-example)** | **Microsoft 365 Agents SDK** demo — declarative manifest + 5 typed handlers + 4 Graph connectors + channel-aware rendering (Teams chat / Outlook HTML email / Copilot canvas adaptive card). 25 tests + 6 golden evals. | [![CI](https://github.com/derekgallardo01/m365-agents-sdk-example/actions/workflows/ci.yml/badge.svg)](https://github.com/derekgallardo01/m365-agents-sdk-example/actions/workflows/ci.yml) | **[demo →](https://derekgallardo01.github.io/m365-agents-sdk-example/)** |
 | 📄 | **[pdf-extraction-kit](https://github.com/derekgallardo01/pdf-extraction-kit)** | Schema-driven PDF extraction with pluggable backends (regex by default, LLM swap via one env var), per-field confidence scores, and a golden eval harness asserting **exact extracted values** per fixture per field. 3 schemas (invoice/contract/statement), 6 fixtures, 23 tests + 12 golden evals. | [![CI](https://github.com/derekgallardo01/pdf-extraction-kit/actions/workflows/ci.yml/badge.svg)](https://github.com/derekgallardo01/pdf-extraction-kit/actions/workflows/ci.yml) | **[demo →](https://derekgallardo01.github.io/pdf-extraction-kit/)** |
 | 🗂️ | **[document-classifier-kit](https://github.com/derekgallardo01/document-classifier-kit)** | Schema-driven document classifier with confidence-routed human review and a golden eval harness reporting per-class precision / recall / F1. 6-class default catalog (invoice, PO, contract, complaint, job application, spam), 7 fixtures, 23 tests + 7 golden evals. Pairs with `pdf-extraction-kit` as a doc-intake pipeline. | [![CI](https://github.com/derekgallardo01/document-classifier-kit/actions/workflows/ci.yml/badge.svg)](https://github.com/derekgallardo01/document-classifier-kit/actions/workflows/ci.yml) | **[demo →](https://derekgallardo01.github.io/document-classifier-kit/)** |
+| 🧪 | **[prompt-registry-kit](https://github.com/derekgallardo01/prompt-registry-kit)** | Versioned prompt registry with A/B variants, eval-gated promotion, and instant rollback. The production-ops piece every LLM build needs once *"we changed the prompt"* becomes the most common root cause of outages. 3 bundled prompts × 2 versions each, 5 rubric types, 36 tests + 12 golden evals. | [![CI](https://github.com/derekgallardo01/prompt-registry-kit/actions/workflows/ci.yml/badge.svg)](https://github.com/derekgallardo01/prompt-registry-kit/actions/workflows/ci.yml) | **[demo →](https://derekgallardo01.github.io/prompt-registry-kit/)** |
 
 ### Delivery & enablement kits (4)
 
